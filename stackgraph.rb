@@ -3,7 +3,7 @@ require 'haml'
 
 require 'net/http'
 require 'zlib'
-require 'JSON'
+require 'json'
 
 get '/' do
   haml :index
