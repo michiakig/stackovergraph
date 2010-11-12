@@ -1,0 +1,9 @@
+%h1 stackgraph
+%form{:action => "/graph", :method => "post"}
+  %legend
+    graph of questions over time
+  %p
+    %label{:for => ""} enter any tag from stackoverflow.com
+    %input{:type => "textbox", :name => "tag", :id => "tag"}
+  %p
+    %input{:type => "submit", :value => "graph!"}
